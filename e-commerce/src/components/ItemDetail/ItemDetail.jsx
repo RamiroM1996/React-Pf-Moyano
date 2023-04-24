@@ -29,7 +29,7 @@ if(detalle.picture === undefined){
   return <LoadingSpinner />
   }
 
-  document.title = `JIMP iTech - ${detalle.category}/${detalle.name}`;
+  document.title = `E-commerce - ${detalle.category}/${detalle.name}`;
 
   return (
     <><div><Container className="d-flex text-center justify-content-center p-5 slide-in-fwd-center"><Breadcrumb listProps={{ className: "justify-content-center" }} className="justify-content-center">

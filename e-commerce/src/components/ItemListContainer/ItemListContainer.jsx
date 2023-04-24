@@ -16,12 +16,12 @@ function ItemListContainer( {greeting, items} ) {
    
     useEffect(() => {
         if (category === undefined) {
-     document.title = 'JIMP iTech! Catálogo';       
+     document.title = 'E-commerce Catálogo';       
     getProductos().then(respuestaPromise => {
         setProductos(respuestaPromise);
         setLoading(false);
     }); } else {
-        document.title = `JIMP iTech! ${category}`;
+        document.title = `E-commerce ${category}`;
     getItemsByCategory(category).then(respuestaPromise => {
         setProductos(respuestaPromise);
         setLoading(false);

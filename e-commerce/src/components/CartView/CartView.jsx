@@ -67,7 +67,7 @@ function CartView({ greeting }) {
               function setTitle(title){
               document.title = title;  
               }
-              setTitle("JIMP iTech! -- Carrito");
+              setTitle("E-commerce-- Carrito");
             }, []);
 
     
@@ -76,7 +76,7 @@ function CartView({ greeting }) {
       <div className="row py-lg-5">
           <div className="col-12">
           <p>No hay items en su carrito</p>
-          <img src={jimpitech} width="480px" alt="JIMP iTech" className="img-fluid" />
+          <img src={jimpitech} width="480px"  className="img-fluid" />
           <p></p>
           <Link to="/">Regresar al menú</Link>
         </div>

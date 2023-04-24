@@ -9,7 +9,7 @@ import '../../assets/css/animaciones.css'
 
 
 function CheckOut() {
-    document.title = `JIMP iTech - Pago y envío`;
+    document.title = `E-commerce - Pago y envío`;
     const { cart, clearCart, itemsTotal, precioTotal } = useCartContext();
     const [OrderID, setOrderID] = useState();
     
@@ -141,7 +141,7 @@ function CheckOut() {
             <div className="row py-lg-5">
                 <div className="col-12">
                 <p>No hay articulos en su carrito</p>
-                <img src={jimpitech} width="480px" alt="JIMP iTech" className="img-fluid" />
+                <img src={jimpitech} width="480px"  className="img-fluid" />
                 <p></p>
                 <Link to="/">Regresar al menú</Link>
               </div>

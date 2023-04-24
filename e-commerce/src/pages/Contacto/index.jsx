@@ -3,7 +3,7 @@ import './Contacto.css';
 import '../../assets/css/animaciones.css'
 
 function Contacto() {
-    document.title = 'JIMP iTech - Contacto';
+    document.title = 'E-commerce  - Contacto';
   return (
     <section className="slide-in-fwd-center">
   {/* Formulario de contacto - no funcional basado en https://www.freecontactform.com/form-guides/html-email-form*/}
@@ -13,7 +13,7 @@ function Contacto() {
         <h3 className="mb-2 text-white">Informacion</h3>
         <div className="info text-light .fs-6">
           calle falsa 1234
-          <p>pirulo@gmail.com</p>
+          <p>pirulo1@gmail.com</p>
           23434534534
           <div className="social-icons">
           </div>
